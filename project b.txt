@@ -1,0 +1,59 @@
+
+KEY PAGES
+
+-Home
+-Account Page
+-Navigation Input
+-Navigation Options (search results)
+[-Navigation in Progress]
+-Locations
+[-News]
+-About
+
+
+ADOBE ALTERNATIVES
+Photoshop -
+	-Pixlr - browser
+	-Luminar
+	-Apple Photos
+	-Windows 10 Photos (lol)
+	-GIMP
+	-Photo Pos Pro
+	-RawTherapee
+	-Paint.NET
+
+Photoshop: Web-design-specific -
+	-Wix.com
+	-WordPress.com
+	-Weebly.com
+	-Webflow.com
+	-openElement
+
+Photoshop: Web design mockup alternatives -
+	-Gravit - have account
+	-Figma
+	-***MockFlow - have account
+
+Dreamweaver -
+	-Brackets
+
+Behance
+	-?
+
+
+BOOTSTRAP THEMES
+
+Multipurpose Theme
+https://themes.getbootstrap.com/preview/?theme_id=6122
+https://demos.creative-tim.com/nuxt-argon-dashboard-pro/
+
+
+TEXT
+
+Home    Navigation     Locations     About     Contact Us     My Account
+
+With more and more transportation options becoming available, people want to know the best way to get where they are going - not simply where to go, but how to go. Go2 Navigation uses information about your vehicle, location, and current travel conditions to bring you the most relevant and helpful information about your trip.
+
+
+
+We are always improving the Go2 Navigation app. Get the latest news about the extra features, new releases, and company information.
