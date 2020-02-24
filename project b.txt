@@ -47,6 +47,41 @@ Multipurpose Theme
 https://themes.getbootstrap.com/preview/?theme_id=6122
 https://demos.creative-tim.com/nuxt-argon-dashboard-pro/
 
+BOOTSTRAP TECHNIQUES
+-Instead of the navbar class, use an unordered list with BS .nav-item classes
+-Navigation drop down menu can use “.dropdown” and “.dropdown-toggle” classes followed by unordered list with “.dropdown-menu” class
+-Carousel Bootstrap component will be used for large image slides
+-Bootstrap containers will be used for responsive layout
+-Images will use “.img-thumbnail” and possibly “.rounded” classes to give a nice border
+-Standard Bootstrap form components for input including buttons
+-Input group component can be used for calendar
+-List group component to be used for left hand menu with “.active” class used to track active item
+-Slider can use Bootstrap range input control
+
+PROFESSOR'S EXPECTATION FOR BOOTSTRAP THEMES
+
+For your web app I would highly encourage you to locate the template examples with bootstrap that will allow you to see how other folks have handled the design process and Twitter bootstrap. Then you'll be able to navigate and document how you will be handling the design and development process with bootstrap. You will want to plan out and show your planning on how you will transition from your wireframe prototypes to your fully developed bootstrap web app.
+
+SUGGESTION FOR MOVING FORWARD
+
+There are some scaled and stretched images throughout. I would suggest resolving these as your very first step to make sure that there are not non-uniform scaled images.
+
+Secondly I would pull out a couple very clear template examples with Twitter bootstrap using the resources I provided. You will want to  your solution against other industry-leading solutions to ensure that your button designs, typography, navigation, and overall look and feel match that's happening in the industry.
+
+You don't want to clone these, or start with these, but these are a good reference point to compare https://startbootstrap.com/themes/
+
+PROFESSOR'S WEBSITE
+
+http://www.unitymd.com/hospital-marketing-platform
+http://www.unitymd.com/hospital-physician-directory-websites
+
+PROFESSOR'S SUGGESTION TO ME
+
+Hi Adam, I think that you have a lot of great planning and documentation in your process book. This demonstrates your commitment to the information architecture and business analysis processes.
+
+From a design standpoint I would recommend to eliminate the gradient colors on page 17 with your flow diagram. I would just make simple understated neutral colors. I think that will help with readability. 
+
+This will allow you to take a look at some of the other UI mock ups as well. I think you could use simple blocks of color instead of larger background fill colors from page 47 to the end of your process book. Take a look at the getbootstrap example templates and you'll a lot of simple white background designs that look super sharp.
 
 TEXT
 
@@ -57,3 +92,128 @@ With more and more transportation options becoming available, people want to kno
 
 
 We are always improving the Go2 Navigation app. Get the latest news about the extra features, new releases, and company information.
+
+
+Go2 Navigation is a collaborative effort by travel industry professionals to gather and release the most reliable navigation data available.
+
+We are always improving the Go2 Navigation app. Get the latest news about the extra features, new releases, and company information.
+
+
+---
+
+
+
+BOOTSTRAP IMPROVEMENTS TO INCLUDE IN THE PROCESS BOOK
+-Navigation bar improvement
+-Mobile design (and tablet)
+
+---
+
+WEEK 2 REQUIREMENTS
+
+-Create a mobile framework rough draft.
+-You will want to focus on one or two key pages of your application, and you will want to get your mobile framework up and running with your interface elements in place.
+-Get your primary navigation in place, your branding in place, and then start with a single page and get any jumbotrons that are needed, drop down list, radio buttons, or any other HTML elements that are needed to complete the user interactions.
+-Add your rough draft to your process book by doing screen captures of your site in a browser and show the work in all form factors including desktop, tablet, and mobile using Google Developer Tools or Browserstack.
+
+-MUST remove the gradient from week 1 on the account page
+
+---
+
+WORKLIST
+
+-Mobile pages to work in Mockflow - Home page, account page, and possibly navigation page
+-Revise account page - no gradient blur in sidebar
+-Add (rounded corner?) boxes to controls on pages
+-Code this mf
+
+---
+
+MOCKFLOW DIMENSIONS
+
+One block = 20px x 20px
+Desktop width = 960px / 48 blocks
+
+-for an iPad the format is 768 x 1024 pixels
+-for an iPhone 5 the format is 320 x 568 pixels
+-iPhone 6s	750 x 1334
+
+320 px width = 16 blocks
+568 px height = approx. 28 blocks
+
+---
+
+BACKGROUND GRADIENT COLORS
+
+238/238/255 in the center
+246/246/255 on the sides (nearly white)
+
+Mobile gradient background code:
+Layers
+Add Up Down Delete
+Presets
+Layer Preview
+Orientation :
+Angle :
+0
+
+
+Alpha:
+100
+ Location:
+0
+ % Delete
+
+Color: Location:
+100
+ % Delete
+save link
+Multi-layers Gradient Preview
+
+Generate Code
+Width :
+320
+px Height :
+568
+px
+
+download image generate source
+
+Base 64 code CSS code
+<style>
+div { width:100%; height:100%; }
+.layer-1 { width:320px; height:568px; }
+.layer-1{
+background: -moz-linear-gradient(0deg, rgba(246,246,255,1) 0%, rgba(238,238,255,1) 5%, rgba(238,238,255,1) 95%, rgba(246,246,255,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(246,246,255,1) 0%, rgba(238,238,255,1) 5%, rgba(238,238,255,1) 95%, rgba(246,246,255,1) 100%);
+background: -o-linear-gradient(0deg, rgba(246,246,255,1) 0%, rgba(238,238,255,1) 5%, rgba(238,238,255,1) 95%, rgba(246,246,255,1) 100%);
+background: -ms-linear-gradient(0deg, rgba(246,246,255,1) 0%, rgba(238,238,255,1) 5%, rgba(238,238,255,1) 95%, rgba(246,246,255,1) 100%);
+background: linear-gradient(90deg, rgba(246,246,255,1) 0%, rgba(238,238,255,1) 5%, rgba(238,238,255,1) 95%, rgba(246,246,255,1) 100%);
+}
+
+</style>
+
+<div class='layer-1' >
+</div>
+
+---
+
+CHANGE DOCUMENTATION - to be included in a process book page
+
+-Mobile versions of the home page and account page have been designed.
+-On the initial sketch, the mobile version of the home page did not have a large image, a "Welcome!" message, or the transportation icons. However, I feel that this did not provide enough content above the fold, so they were added back to the design without feeling too cluttered.
+-When the mobile version of the home page is scrolled down, the modules toward the bottom of the page ("About what we do" and "More features") include a header, text, and button, but not the image from the desktop version.
+-Based on some feedback, the desktop version of the account page has been redesigned. The gradient transition from the left sidebar to the background fill color has been removed and replaced with a clean break between the sidebar and page background. Because of this change, a more neutral gray color and black text color were chosen for the sidebar.
+-The position and size of the input fields on the desktop version of the account page have also been rearranged. Smaller text labels are present.
+-The changes to the desktop version of the account page have also been incorporated into the mobile version of the account page.
+
+---
+
+TO INCLUDE IN WEEK 2 PROCESS BOOK
+
+-Change documentation
+-Mobile home page initial view
+-Mobile home page scrolled down
+-Mobile home page - menu active
+-Mobile account page
+-Revised desktop account page
