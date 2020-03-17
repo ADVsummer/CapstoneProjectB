@@ -80,7 +80,6 @@ and (max-device-width : 480px){
 	text-align: center;
 	margin: auto;
 	font-size: 30px;
-	font-family: Verdana, Geneva, sans-serif;
 }
 
 
@@ -101,7 +100,7 @@ and (max-device-width : 480px){
 	border-radius: 10px;
 }
 
-#locationsContent {
+#locationsContentDesktop {
 	position: absolute;
 	padding: 5px;
 	color: white;
@@ -115,10 +114,11 @@ and (max-device-width : 480px){
 	font-size: 35px;
 	min-width: 600px;
 }
+
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px){ 
-	#locationsContent {
+	#locationsContentDesktop {
 		position: relative;
 		font-size: 20px;
 		max-width: 250px;
@@ -139,6 +139,36 @@ and (max-device-width : 480px){
 	margin: auto;
 }
 
+aside {
+	background-color: #EEEEEE;
+	float: left;
+	width: 20%;
+	border: 1px solid #DDDDDD;
+	border-radius: 10px;
+	min-width: 200px;
+	margin-left: 5%;
+}
+
+#accountInfo {
+	background-color: #EEEEEE;
+	border: 1px solid #DDDDDD;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+section {
+	padding-left: 23%;
+	margin: auto;
+}
+
+#profilePicture {
+	max-width: 100px;
+}
+
+#userName {
+	color: #F98956;
+}
+
 #travelBgImage {
 	width: 100%;
 }
@@ -151,6 +181,20 @@ a:link, a:visited {
 	color: white;
 }
 
+.currentNavLink:hover {
+	color: #FFE0C0;
+}
+
+.nav-link {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 24px;
+}
+
+.navbar-toggler-icon {
+	padding: 25px;
+	border: 2px solid white;
+}
+
 a:hover, a:active {
 	color: #FF8F26;
 }
@@ -159,6 +203,19 @@ header {
 	text-align: center;
 	margin: 0 auto;
 	background-color: #FCFCFC;
+	padding: 0 !important;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){
+	header > * {
+		margin: auto 20px !important;
+	}
+	
+	#topImage {
+		margin: 0 !important;
+	}
 }
 
 #homePageHeading {
@@ -175,6 +232,37 @@ header {
 	border-radius: 10px;
 }
 
+#accountGreenBubble {
+	padding: 5px;
+	background-color: #F4FAFA;
+	border: 1px solid #4BE7E0;
+	border-radius: 10px;
+}
+
+#asideGreenBubble {
+	width: 80%;
+	margin: auto;
+	padding: 0;
+	background-color: #F4FAFA;
+	border: 1px solid #4BE7E0;
+	border-radius: 10px;
+}
+
+#asideOrangeBubble {
+	width: 80%;
+	margin: auto;
+	background-color: #F9F9F9;
+	border: 1px solid #FF8F26;
+	border-radius: 10px;
+}
+
+#accountOrangeBubble {
+	padding: 5px;
+	background-color: #F9F9F9;
+	border: 1px solid #FF8F26;
+	border-radius: 10px;
+}
+
 .navBottom {
 	background-color: #F98956;
 }
@@ -183,6 +271,18 @@ header {
 	/* homePageHeading contains the first header and paragraph toward the top of the home page.
 	The container for this element is header. */
 
+}
+
+#mobileAccountTable td {
+	min-width: 100px;
+}
+
+#desktopProfileTable {
+	min-width: 200px;
+}
+
+#desktopProfileTable td {
+	min-width: 100px;
 }
 
 #transportationIcons {
@@ -261,6 +361,17 @@ and (max-device-width : 480px){
 	margin: auto;
 }
 
+.accountOrangeBubble {
+	background-color: #F9E4C4;
+	border: 1px solid #FF8F26;
+	border-radius: 10px;
+	font-size: 30px;
+	max-width: 600px;
+	margin: auto;
+	margin-left: 23%;
+	margin-right: 5%;
+}
+
 .aboutGreenBubble {
 	background-color: #E7F4F4;
 	border: 1px solid #4BE7E0;
@@ -269,6 +380,18 @@ and (max-device-width : 480px){
 	padding: 5px;
 	max-width: 600px;
 	font-size: 14px;
+}
+
+.accountGreenBubble {
+	background-color: #E7F4F4;
+	border: 1px solid #4BE7E0;
+	border-radius: 10px;
+	margin: auto;
+	padding: 5px;
+	max-width: 600px;
+	font-size: 14px;
+	margin-left: 23%;
+	margin-right: 5%;
 }
 
 .orangeInput {
@@ -284,6 +407,7 @@ and (max-device-width : 480px){
 
 table {
 	margin: auto;
+	/*text-align: left;*/
 }
 
 .lightBlue {
@@ -326,22 +450,41 @@ and (max-device-width : 480px){
 	border: none;
 }
 
-#orangeButton1, #orangeButton2, #orangeButton3, #orangeButton4 {
-	margin: 5px;
+#orangeButton1, #orangeButton2, #orangeButton3, #orangeButton4, #orangeButton5 {
 	text-align: center;
 	background: #F98956;
 	border-radius: 10px;
 	color:white;
 	border: none;
 }
+
+#orangeButton1, #orangeButton2, #orangeButton3, #orangeButton4 {
+	margin: 5px;
+}
+
+#orangeButton5 {
+	margin: 30px;
+	padding: 10px;
+	font-size: 30px;
+}
+
 #orangeButton1:hover, #orangeButton2:hover, #CLButton:hover {
 	background: #50E8D8;
 	margin: 5px;
 	text-align: center;
 	border-radius: 10px;
+	color: white;
+	border: none;
+}
+
+#orangeButton5:hover {
+	background: #50E8D8;
+	text-align: center;
+	border-radius: 10px;
 	color:white;
 	border: none;
 }
+
 #CLButton {
 	padding: 2px;
 	margin: 5px;
@@ -392,17 +535,6 @@ and (max-device-width : 480px)
 	min-width: 150px;
 }
 
-.footerContainer {
-	min-height: 1px;
-	width: 100%;
-	position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
-	background-color: #50E0D0;
-	margin-top: 20px;
-}
-
 .footer {
 	width:100%;
 	min-height: 1px;
@@ -410,4 +542,6 @@ and (max-device-width : 480px)
 	text-align: left;
 	background-color: #50E0D0;
 	color: black;
+	position: relative;
+	bottom: 0;
 }*/

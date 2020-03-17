@@ -1,0 +1,71 @@
+
+PROFESSOR'S SUGGESTIONS
+
+Smaller nav text size
+Get started now button - add more padding/move down and make the opposite color
+around hamburger menu - solid outline?
+add drop-down lists and/or radio buttons? (text inputs have already been added)
+
+I highly suggest you sending out a test presentation to me so I can give you feedback by at least day two or three of the week so you have time to make adjustments as needed.
+
+---
+
+NEED TO DO
+
+Add mobile and tablet device frames to screenshots
+
+---
+
+REQUIREMENTS
+
+-Final polish and presentation design.
+-During this development step, you will be finalizing the aesthetics and overall professional polish for your presentation design.
+-First impressions matter. During this final design polish pass you will need to make sure that all of your headings are in the exact same position and with the same typographic treatment.
+-You will want to make sure that all of your body text is of a normal size and is highly readable. You don't want any differences in your body text treatment across any of the pages.
+-Ensure that there is an absolute 100% unification across the typographic implementation.
+-Also, in this phase make sure that you have finalized any and all graphical elements so that there is a strong sense of unity and emphasis throughout the presentation.
+-Add your mobile engineering work to your process book by doing screen captures of your site in a browser and show the work in all form factors including desktop, tablet, and mobile using Google Developer Tools or Browserstack.
+-Continue to make GitHub incremental commits using the GitFlow process. Include a screenshot of your commit history in your process book.
+-Submit your PDF process book and your site HTML/CSS/JavaScript files as a single zip file to Blackboard. Your project will be graded based off your PDF process book. If elements are missing and the project scope and work cannot be viewed in the process book, it will be graded accordingly.
+-Post your PDF process book to the discussion forum for peer feedback.
+
+---
+
+CHANGE LOG
+
+-The font size of the navigation bar links have been made smaller. The font was also changed from the default to Lucida Sans Unicode.
+-The "Get Started Now" button on the home page has been changed to match the format of the other buttons on the page -- orange to contrast with the other colors on the page, and green when hovered over. Padding and text size were also increased for this button so that it would stand out more.
+-The My Account page has been coded and given a refinished design that includes more inputs and a user interface that more closely matches that of the other pages.
+-The hamburger menu icon on the mobile version has been made larger and a border was added to it.
+-A correction was made to the container element for most of the body of the page (everything except the nav bar and footer) to allow it to stretch to the edges of the page, giving a slightly more fluid look to the pages.
+-The footer on all pages has been corrected so that it always displays at the very bottom of the page (unless there's not enough content to fit the viewport window).
+
+---
+
+SCREENSHOT EXPLANATION
+
+The following screenshots display the finalized versions of each of the five major pages of the Go2 Navigation site in five form factors: desktop, tablet portrait, tablet landscape, mobile portrait, and mobile landscape. All screenshots are taken in Google Chrome, using Chrome's Developer Tools to emulate the webiste's look in tablet and mobile devices. The tablet mockups are formatted for iPad and the mobile mockups are formatted for iPhone 8.
+
+---
+
+cropping
+
+tablet portrait - 386 514
+tablet landscape - 514 386
+mobile portrait - 302 536
+mobile landscape - 669 377
+
+---
+
+VIDEO FLOW
+
+-Home page desktop, show nav bar, then nav page, locations, about, and account
+-Switch to tablet, show account, home, navigation, locations, about
+	-Show both versions
+	-Go back to account page
+-Switch to mobile
+	-Briefly show landscape mode
+	-Show account, home, navigation, locations, about
+
+---
+

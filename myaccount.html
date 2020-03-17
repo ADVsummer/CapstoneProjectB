@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Account</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- My CSS stylesheet, which will be used in addition to the default Bootstrap stylesheet -->
+<link rel="stylesheet" href="css/go2navigation.css">
+<!-- To use Bootstrap CDN delivery for their CSS file
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+-->
+<!-- Using locally-stored css instead -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- To use Bootstrap CDN delivery for the JavaScript file
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+-->
+<!-- Using locally-stored JavaScript instead -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md">
+  <a class="navbar-brand" href="index.html"><img id="logo" src="images/Go2 Navigation logo.png"></a>
+  <div class="mobileOnly" id="mobileNavTitle"><h5>My Account</h5></div>
+  <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="main-navigation">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="navigation.html">Navigation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="locations.html">Locations</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="myaccount.html"><span class="currentNavLink">My Account</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="navBottom" style="width:100%; height:6px; border:none;">&nbsp</div>
+
+<header class="page-header header container-fluid">
+	<br>
+
+<div class="mobileOnly">
+<div id="accountInfo">
+<table>
+	<tr>
+		<td rowspan="2"><img src="images/blank profile picture.png" id="profilePicture"></td>
+		<td>&nbsp&nbsp&nbsp&nbsp</td>
+		<td>John Doe</td>
+	</tr>
+	<tr>
+		<td>&nbsp&nbsp&nbsp&nbsp</td>
+		<td id="userName">jdoe123</td>
+	</tr>
+</table>
+</div>
+<div id="accountGreenBubble">Account options</div>
+<div id="accountOrangeBubble">My account</div>
+<img src="images/horizontal line.png">
+<form>
+<table id="mobileAccountTable">
+<tr><td colspan="3">First Name</td></tr>
+<tr><td colspan="3"><input type="text" id="firstNameInput" name="firstNameInput" class="orangeInput"></td></tr>
+<tr><td colspan="3">Last Name</td></tr>
+<tr><td colspan="3"><input type="text" id="lastNameInput" name="lastNameInput" class="orangeInput"></td></tr>
+<tr><td colspan="3">Home Address</td></tr>
+<tr><td colspan="3"><input type="text" id="address1Input" name="address1Input" class="orangeInput"></td></tr>
+<tr><td colspan="3"><input type="text" id="address2Input" name="address2Input" class="orangeInput"></td></tr>
+<tr><td colspan="3"><input type="text" id="address3Input" name="address3Input" class="orangeInput"></td></tr>
+<tr><td colspan="3">Home phone</td></tr>
+<tr><td colspan="3"><input type="text" id="homePhoneInput" name="homePhoneInput" class="orangeInput"></td></tr>
+<tr><td colspan="3">Cell phone</td></tr>
+<tr><td colspan="3"><input type="text" id="cellPhoneInput" name="cellPhoneInput" class="orangeInput"></td></tr>
+<tr><td colspan="3">Work phone</td></tr>
+<tr><td colspan="3"><input type="text" id="workPhoneInput" name="workPhoneInput" class="orangeInput"></td></tr>
+<tr><td colspan="3">Email address</td></tr>
+<tr><td colspan="3"><input type="text" id="emailInput" name="emailInput" class="orangeInput"></td></tr>
+<tr><td colspan="3">Get updates via</td></tr>
+<tr><td><input type="radio" name="updates" value="email">  Email</td>
+<td><input type="radio" name="updates" value="text">  Text</td>
+<td><input type="radio" name="updates" value="both">  Both</td>
+</tr>
+<tr><td colspan="3"><button class="btn btn-outline-secondary btn-lg" id="orangeButton1">Save Changes</button></td></tr>
+</table>
+<br>
+</div>
+
+<aside class="desktopOnly">
+<br>
+<table id="desktopProfileTable">
+	<tr>
+		<td rowspan="2">
+			<img src="images/blank profile picture.png" id="profilePicture">
+		</td>
+		<td>John Doe</td>
+	</tr>
+	<tr>
+		<td id="userName">jdoe123</td>
+	</tr>
+</table>
+<img src="images/horizontal line.png">
+
+<div id="asideGreenBubble">
+	Account options
+</div>
+<div id="asideOrangeBubble">
+	My account
+</div>
+<br>
+</aside>
+<section class="desktopOnly">
+<div class="accountOrangeBubble">My Account</div>
+<div class="accountGreenBubble">
+	<form>
+	<table>
+		<tr>
+			<td colspan="3">First Name</td>
+			<td colspan="3">Last Name</td>
+		</tr>
+		<tr>
+			<td colspan="3"><input type="text" id="firstNameInput" name="firstNameInput" class="orangeInput"></td>
+			<td colspan="3"><input type="text" id="lastNameInput" name="lastNameInput" class="orangeInput"></td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td colspan="6">Home address</td>
+		</tr>
+		<tr>
+			<td colspan="6"><input type="text" id="address1Input" name="address1Input" class="orangeInput"></td>
+		</tr>
+		<tr>
+			<td colspan="6"><input type="text" id="address2Input" name="address2Input" class="orangeInput"></td>
+		</tr>
+		<tr>
+			<td colspan="6"><input type="text" id="address3Input" name="address3Input" class="orangeInput"></td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td colspan="2">Home phone</td>
+			<td colspan="2">Cell phone</td>
+			<td colspan="2">Work phone</td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="text" id="homePhoneInput" name="homePhoneInput" class="orangeInput"></td>
+			<td colspan="2"><input type="text" id="cellPhoneInput" name="cellPhoneInput" class="orangeInput"></td>
+			<td colspan="2"><input type="text" id="workPhoneInput" name="workPhoneInput" class="orangeInput"></td>
+		</tr>
+		<tr>
+			<td colspan="6">Email address</td>
+		</tr>
+		<tr>
+			<td colspan="6"><input type="text" id="emailInput" name="emailInput" class="orangeInput"></td>
+		</tr>
+		<tr>
+			<td colspan="6">Get updates via</td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="radio" name="updates" value="email">  Email</td>
+			<td colspan="2"><input type="radio" name="updates" value="text">  Text</td>
+			<td colspan="2"><input type="radio" name="updates" value="both">  Both</td>
+		</tr>
+		<tr>
+			<td colspan="6"><button class="btn btn-outline-secondary btn-lg" id="orangeButton1">Save Changes</button></td>
+		</tr>
+	</table>
+	</form>
+	</div>
+	<br>
+</section>
+
+</header>
+<div class="footer">©2020 Go2 Navigation</div>
+</body>
+</html>

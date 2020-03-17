@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Go2 Navigation</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- My CSS stylesheet, which will be used in addition to the default Bootstrap stylesheet -->
+<link rel="stylesheet" href="css/go2navigation.css">
+<!-- To use Bootstrap CDN delivery for their CSS file
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+-->
+<!-- Using locally-stored css instead -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- To use Bootstrap CDN delivery for the JavaScript file
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+-->
+<!-- Using locally-stored JavaScript instead -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md">
+  <a class="navbar-brand" href="index.html"><img id="logo" src="images/Go2 Navigation logo.png"></a>
+  <div class="mobileOnly" id="mobileNavTitle"><h5>Go2 Navigation Home</h5></div>
+  <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="main-navigation">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html"><span class="currentNavLink">Home</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="navigation.html">Navigation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="locations.html">Locations</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="myaccount.html">My Account</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="navBottom" style="width:100%; height:6px; border:none;">&nbsp</div>
+<header class="page-header header container-fluid">
+<div id="topImage">
+	<h1 id="welcome">Welcome!</h1>
+	<img id="travelBgImage" src="images/travel background image cropped.png">
+</div>
+	
+<div class="mobileOnly">
+<div class="mobileGreenBubble">
+<h3>Simple navigation...and so much more!</h3>
+<div class="navBottom" style="width:100%; height:2px; border:none;">&nbsp</div>
+<p id="mobileHomeHeaderP">
+	Know the best way to get where you're going - not simply <strong>where</strong> to go, but <strong>how</strong> to go.
+</p>
+</div>
+</div>
+	
+<table class="desktopOnly" id="homePageHeading">
+	<tr><td><h3>Simple navigation...and so much more!</h3></td></tr>
+	<tr><td><div class="navBottom" style="width:100%; height:2px; border:none;">&nbsp</div></td></tr>
+	<tr><td><p id="desktopHomeHeaderP">
+		With more and more transportation options becoming available, people want to know the best way to get where they are going - not simply <strong>where</strong> to go, but <strong>how</strong> to go. <strong style="color:#F98956">Go2 Navigation</strong> uses information about your vehicle, location, and current travel conditions to bring you the most relevant and helpful information about your trip.
+	</p>
+	</div>
+	</tr></td>
+</table>
+<div id="transportationIcons">
+<img class="transportationIcon" src="images/bus icon.png">
+<img class="verticalLine" src="images/vertical line.png">
+<img class="transportationIcon" src="images/car icon.png">
+<img class="verticalLine" src="images/vertical line.png">
+<img class="transportationIcon" src="images/tramway icon.png">
+<img class="verticalLine" src="images/vertical line.png">
+<img class="transportationIcon" src="images/airplane icon.png">
+</div>
+<a href="navigation.html"><button id="orangeButton5" class="btn btn-outline-secondary btn-lg" >Get Started Now</button></a>
+<br>
+<div id="homePageBottomMobile" class="mobileOnly">
+	<div class="mobileGreenBubble">
+	<h3>About what we do</h3>
+	<p>Go2 Navigation is a collaborative effort by travel industry professionals to gather and release the most reliable navigation data available.
+	</p>
+	<a href="locations.html"><button id="orangeButton3" class="btn btn-outline-secondary btn-lg">Learn More</button></a>
+	</div>
+	<div class="mobileGreenBubble">
+	<h3>More features</h3>
+	<p>We are always improving the Go2 Navigation app. Get the latest news about the extra features, new releases, and company information.
+	</p>
+	<a href="about.html"><button id="orangeButton4" class="btn btn-outline-secondary btn-lg">News</button></a>
+	</div>
+</div>
+<table id="homePageBottom" class="desktopOnly">
+	<tr>
+		<td></td>
+		<td><img class="homePageBottomImage" src="images/directional arrow sign.png"></td>
+		<td></td>
+		
+		<td><img class="homePageBottomImage" src="images/map with magnifying glass.jpg"></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><h4>About what we do</h4></td>
+		<td></td>
+		<td><h4>More features</h4></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><p>Go2 Navigation is a collaborative effort by travel industry professionals to gather and release the most reliable navigation data available.</p></td>
+		<td></td>
+		<td><p>We are always improving the Go2 Navigation app. Get the latest news about the extra features, new releases, and company information.</p></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><a href="locations.html"><button id="orangeButton1" class="btn btn-outline-secondary btn-lg">Learn More</button></a></td>
+		<td></td>
+		<td><a href="about.html"><button id="orangeButton2" class="btn btn-outline-secondary btn-lg">News</button></a></td>
+		<td></td>
+	</tr>
+</table>
+<br>
+</header>
+<div class="footer">©2020 Go2 Navigation</div>
+</body>
+</html>
